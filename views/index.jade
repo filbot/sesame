@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Press to activate #{title}
+  button.btn Open Sesame
+  script(type='text/javascript')
+    $(".btn").on('click', function(){
+      $.get('/open', function(){
+        });
+    });
