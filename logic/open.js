@@ -27,7 +27,7 @@ function openSesame() {
 
                         // set pin 18 to high
                         gpio.write(18, 1, function() {
-                            module.setInterval(function () {
+                            setInterval(function () {
                                 gpio.close(16);  // clost pin 16
                                 gpio.close(18);  // clost pin 18
                             },5000);
