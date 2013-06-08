@@ -1,11 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Press to activate #{title}
-  button.btn Open Sesame
+  button.btn Sesame
   script(type='text/javascript')
-    $(".btn").on('click', function(){
+
+    document.ontouchstart = function(e){ 
+      e.preventDefault(); 
+    }
+
+    $(".btn").fastClick(function(){
       $.get('/open', function(){
         });
     });
