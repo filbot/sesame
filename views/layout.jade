@@ -2,7 +2,11 @@ doctype 5
 html
   head
     title= title
+    meta(name="apple-mobile-web-app-capable", content="yes")
+    meta(name='viewport', content='initial-scale=1, user-scalable=no')
+    link(rel='stylesheet', href='/stylesheets/topcoat-desktop-dark.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
     script(rel='text/javascript', src='http://code.jquery.com/jquery-1.10.1.min.js')
+    script(rel='text/javascript', src='/javascripts/fastClick.js')
   body
     block content
