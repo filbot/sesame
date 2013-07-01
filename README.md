@@ -7,6 +7,7 @@ This project was to negate the need for a dedicated garage door clicker and inst
 
 Below is an outline of all the hardware and software used for this project. Depending on your hardware and garage door opener model, this project would work for you as well with minimal tweaks.
 
+![Sesame App screenshot](http://i.imgur.com/rjDmSIz.png)
 
 ### Hardware Requirments
 
