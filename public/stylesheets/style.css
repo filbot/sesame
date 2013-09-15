@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background: url('../images/triangular_@2x.png');
+    background: url('/images/triangular.png');
     background-size: 60px;
 }
 
