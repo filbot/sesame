@@ -2,6 +2,7 @@
 	"folders":
 	[
 		{
+			"follow_symlinks": true,
 			"path": "/Users/filipadamczyk/Sites/filbot/sesame"
 		}
 	]
